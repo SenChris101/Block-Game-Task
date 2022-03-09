@@ -9,7 +9,7 @@
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "initialCountry",
+						"name": "countryName",
 						"type": "string"
 					}
 				],
@@ -30,8 +30,21 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "newMessage",
+						"type": "string"
+					}
+				],
+				"name": "getMessage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
-				"name": "getHelloWorld",
+				"name": "greet",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -43,21 +56,8 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "newCountry",
-						"type": "string"
-					}
-				],
-				"name": "setCountry",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
 				"inputs": [],
-				"name": "tag",
+				"name": "newInput",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -82,7 +82,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Chris.sol": "HelloWorld"
+			"HelloWorldAgain.sol": "HelloWorld"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -96,12 +96,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Chris.sol": {
-			"keccak256": "0x0267b5db3e14532a3def0b0208c90cdf9a8db7fb4d439b1becea030af3b0d255",
+		"HelloWorldAgain.sol": {
+			"keccak256": "0x4ad35e326ccbd99ef19cad1c15ee9e1d0c7b4571396b8831ae15203f04f89f77",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://36bfb16dbb2b3a6ca45f271d2902b4409c3a11c8259b40707eb8e64ec045d6c0",
-				"dweb:/ipfs/QmYRrQ95dHoXLH9S7mzEVmasD8CefRfyYfCRdQF73vMpF4"
+				"bzz-raw://6d665ebe4e9a7bf47cd215c08f4967c41cfb0ea318f4d093a4da0c4297011f6f",
+				"dweb:/ipfs/Qmd7sFBzZD2dDiZGFsQmMuAQPJn8pLXfK5zjwJWSvyV5DW"
 			]
 		}
 	},
